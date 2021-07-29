@@ -4,6 +4,7 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 import org.springframework.boot.context.properties.ConfigurationProperties;
+import org.springframework.stereotype.Component;
 
 /**
  * @author: HeChengyao
@@ -16,7 +17,7 @@ import org.springframework.boot.context.properties.ConfigurationProperties;
  * ConfigurationProperties配置绑定。需要将Bean放到容器中
  * 只有在容器中的组件，才会拥有SpringBoot提供的强大功能
  */
-//@Component
+@Component
 /**
  * 使用 ConfigurationProperties 的方式1.这个地方使用 @Component
  * 方式2. 在配置类 MyConfig类中使用 EnableConfigurationProperties 注解

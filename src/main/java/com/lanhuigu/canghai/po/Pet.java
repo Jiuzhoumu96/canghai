@@ -13,7 +13,6 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 public class Pet {
 
-    private Integer petId;
     private String petName;
     private Double weight;
 
