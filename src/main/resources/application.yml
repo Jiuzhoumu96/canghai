@@ -1,0 +1,21 @@
+server:
+  port: 14914
+#  servlet:
+#    encoding:
+#      charset: GBK
+
+spring:
+  servlet:
+    multipart:
+      max-file-size: 10MB
+  banner:
+    image:
+      location: classpath:banner.txt
+
+mycar:
+  brand: BYD
+  price: 120000
+#debug: true
+
+
+
