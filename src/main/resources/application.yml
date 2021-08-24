@@ -1,7 +1,7 @@
 #总环境配置
 spring:
   profiles:
-    active: dev
+    active: pro
 
 #server:
 #  port: 14914
