@@ -1,5 +1,6 @@
 package com.lanhuigu.canghai.controller;
 
+import com.lanhuigu.canghai.common.constant.Month;
 import com.lanhuigu.canghai.common.constant.Weekdays;
 import com.lanhuigu.canghai.config.ApplicationConfig;
 import com.lanhuigu.canghai.po.Person;
@@ -38,6 +39,8 @@ public class PersonController {
         Integer sss=index;
         String index_str= sss.toString();
         log.info(index_str);
+
+        log.info(Month.SEPTEMBER.toString());
 
         // log.info(">>>>>>" + cs + "," + rd);
         return person;
