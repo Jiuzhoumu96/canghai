@@ -6,9 +6,6 @@ server:
 #      charset: GBK
 
 spring:
-  servlet:
-    multipart:
-      max-file-size: 10MB
   banner:
     image:
       location: classpath:banner.txt
@@ -23,6 +20,12 @@ spring:
 #        dd1-auto: update
 #      show-sql: true
 #      database-platform: org.hibernate.dialect.MySQLDialect
+  mvc:
+    hiddenmethod:
+      filter: true
+  servlet:
+    multipart:
+      max-file-size: 10MB
 
 com:
   lanhuigu:
