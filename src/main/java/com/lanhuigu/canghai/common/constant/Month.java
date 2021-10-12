@@ -29,10 +29,6 @@ public enum Month {
         return monthName;
     }
 
-    public void setMonthName(String monthName) {
-        this.monthName = monthName;
-    }
-
     @Override
     public String toString() {
         return "Month{" +
